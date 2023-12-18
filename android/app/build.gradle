@@ -53,25 +53,25 @@
             versionName flutterVersionName
             multiDexEnabled true
         }
-    signingConfigs {
-        debug {
-        keyAlias 'androiddebugkey'
-        keyPassword 'android'
-        storeFile file('../keyStore/debug.keystore')
-        storePassword 'android'
-    }
-        release {
-                keyAlias 'android'
-                keyPassword 'cp6aCyAs'
-                storeFile file('../keyStore/release.keystore')
-                storePassword 'Wu3GVpWa'
-    }
-    }
+    // signingConfigs {
+    //     debug {
+    //     keyAlias 'androiddebugkey'
+    //     keyPassword 'android'
+    //     storeFile file('../keyStore/debug.keystore')
+    //     storePassword 'android'
+    // }
+    //     release {
+    //             keyAlias 'android'
+    //             keyPassword 'cp6aCyAs'
+    //             storeFile file('../keyStore/release.keystore')
+    //             storePassword 'Wu3GVpWa'
+    // }
+    // }
         buildTypes {
             release {
                 // TODO: Add your own signing config for the release build.
                 // Signing with the debug keys for now, so `flutter run --release` works.
-                signingConfig signingConfigs.release
+                signingConfig signingConfigs.debug
             }
         }
     }
