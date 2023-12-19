@@ -108,7 +108,7 @@ class _PersonalInformationState extends State<PersonalInformation> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   RadioListTile(
-                                    activeColor: const Color(0xffAE1133),
+                                    activeColor: const Color(0xff580176),
                                     value: 'Male'.tr,
                                     groupValue: localizationController
                                             .isHebrew.value
@@ -156,7 +156,7 @@ class _PersonalInformationState extends State<PersonalInformation> {
                                     ),
                                   ),
                                   RadioListTile(
-                                    activeColor: const Color(0xffAE1133),
+                                    activeColor: const Color(0xff580176),
                                     value: 'Female'.tr,
                                     groupValue: localizationController
                                             .isHebrew.value

@@ -413,7 +413,7 @@ class _ProfileEditScreenState extends State<ProfileEditScreen> {
                     return Theme(
                         data: Theme.of(context).copyWith(
                           colorScheme: const ColorScheme.light(
-                              primary: Color(0xffAE1133)),
+                              primary: Color(0xff580176)),
                         ),
                         child: child!);
                   },

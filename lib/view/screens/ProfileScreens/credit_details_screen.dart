@@ -195,7 +195,7 @@ class _CreditDetailsState extends State<CreditDetails> {
                     height: Get.height * .07,
                     width: double.infinity,
                     decoration: BoxDecoration(
-                      color: const Color(0xffAE1133),
+                      color: const Color(0xff580176),
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(

@@ -554,7 +554,7 @@ class _SearchScreeanViewState extends State<SearchScreeanView> {
         },
         child: Column(children: [
           Container(
-            color: const Color(0xffAE1133),
+            color: const Color(0xff580176),
             height: Get.height * 0.20,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
